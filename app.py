@@ -2,6 +2,7 @@ from flask import Flask
 from config import Config
 from extensions import db, csrf, migrate
 from routes import register_routes
+from models import User
 
 def create_app(): 
     app = Flask(__name__)
