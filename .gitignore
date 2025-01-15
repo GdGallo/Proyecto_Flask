@@ -1,0 +1,33 @@
+# Entornos virtuales
+venv/
+.env/
+*.env
+
+# Archivos de configuración sensible
+config.py
+*.key
+*.pem
+
+# Cachés de Python
+__pycache__/
+*.py[cod]
+
+# Logs y bases de datos locales
+*.log
+*.sqlite3
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de IDEs
+.vscode/
+.idea/
+
+# Dependencias instaladas
+*.egg-info/
+pip-log.txt
+
+# Otros
+*.swp
+*.swo
