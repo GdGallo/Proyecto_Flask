@@ -31,3 +31,7 @@ pip-log.txt
 # Otros
 *.swp
 *.swo
+
+# Archivos sensibles
+.env
+config.py
