@@ -43,6 +43,9 @@ class ConversationMemory(db.Model):
     user_input = db.Column(db.Text, nullable=False)  # Entrada del usuario
     bot_response = db.Column(db.Text, nullable=False)  # Respuesta del bot
     timestamp = db.Column(db.DateTime, default=datetime.utcnow)  # Marca de tiempo de la conversación
+    summary = db.Column(db.Text, nullable = True)
 
     def __repr__(self):
         return f"<ConversationMemory {self.id}>"
+
+
